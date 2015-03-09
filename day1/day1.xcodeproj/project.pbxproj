@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		F98396181AAD3A49008E8466 /* 01_start.m in Sources */ = {isa = PBXBuildFile; fileRef = F98396171AAD3A49008E8466 /* 01_start.m */; };
 		F983961A1AAD3A5B008E8466 /* 02_basicGrammar.m in Sources */ = {isa = PBXBuildFile; fileRef = F98396191AAD3A5B008E8466 /* 02_basicGrammar.m */; };
-		F983961E1AAD4781008E8466 /* 03_method.m in Sources */ = {isa = PBXBuildFile; fileRef = F983961D1AAD4781008E8466 /* 03_method.m */; };
+		F983961E1AAD4781008E8466 /* 03_advancedMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F983961D1AAD4781008E8466 /* 03_advancedMethod.m */; };
+		F9D645BA1AAD63DC00765EE1 /* 04_selector.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D645B91AAD63DC00765EE1 /* 04_selector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +29,8 @@
 		F983960B1AAD2FC1008E8466 /* day1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day1; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98396171AAD3A49008E8466 /* 01_start.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 01_start.m; sourceTree = "<group>"; };
 		F98396191AAD3A5B008E8466 /* 02_basicGrammar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 02_basicGrammar.m; sourceTree = "<group>"; };
-		F983961D1AAD4781008E8466 /* 03_method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 03_method.m; sourceTree = "<group>"; };
+		F983961D1AAD4781008E8466 /* 03_advancedMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 03_advancedMethod.m; sourceTree = "<group>"; };
+		F9D645B91AAD63DC00765EE1 /* 04_selector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 04_selector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,8 @@
 			children = (
 				F98396171AAD3A49008E8466 /* 01_start.m */,
 				F98396191AAD3A5B008E8466 /* 02_basicGrammar.m */,
-				F983961D1AAD4781008E8466 /* 03_method.m */,
+				F983961D1AAD4781008E8466 /* 03_advancedMethod.m */,
+				F9D645B91AAD63DC00765EE1 /* 04_selector.m */,
 			);
 			path = day1;
 			sourceTree = "<group>";
@@ -124,8 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F983961E1AAD4781008E8466 /* 03_method.m in Sources */,
+				F983961E1AAD4781008E8466 /* 03_advancedMethod.m in Sources */,
 				F98396181AAD3A49008E8466 /* 01_start.m in Sources */,
+				F9D645BA1AAD63DC00765EE1 /* 04_selector.m in Sources */,
 				F983961A1AAD3A5B008E8466 /* 02_basicGrammar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +246,7 @@
 				F98396141AAD2FC1008E8466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
