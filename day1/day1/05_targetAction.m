@@ -6,8 +6,6 @@
 //  Copyright (c) 2015년 Eizer_N34. All rights reserved.
 //
 
-#if 0
-
 #import <Foundation/Foundation.h>
 
 // iPhone 3대 Design
@@ -53,4 +51,3 @@ int main() {
     [button addTarget:dialog action:@selector(close)];
     [button click];
 }
-#endif

@@ -6,8 +6,6 @@
 //  Copyright (c) 2015년 Eizer_N34. All rights reserved.
 //
 
-
-#if 0
 // Car.h
 #import <Foundation/Foundation.h>
 @interface Car : NSObject {
@@ -61,5 +59,3 @@ int main() {
     // [p release];
     // [p2 release];
 }
-
-#endif

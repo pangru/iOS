@@ -5,9 +5,6 @@
 //  Created by Eizer_N34 on 2015. 3. 9..
 //  Copyright (c) 2015년 Eizer_N34. All rights reserved.
 //
-
-#if 0
-
 #import <Foundation/Foundation.h>
 
 // Selector: 메소드 고유 이름
@@ -68,4 +65,3 @@ int main() {
     // [p performSelector:s1]
     // : p 객체의 메소드 테이블 안에서 s1의 이름을 갖는 함수를 찾아서 호출해달라.
 }
-#endif

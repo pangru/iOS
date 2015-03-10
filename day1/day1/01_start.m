@@ -6,7 +6,6 @@
 //  Copyright (c) 2015년 Eizer_N34. All rights reserved.
 //
 
-#if 0
 // 1. 확장자: .m (C + obj-C), .mm(C++, Obj-C)
 // 2. C: #include - 동일 헤더를 2번 포함하면 재저으이 에러 발생
 //                  include guard
@@ -25,4 +24,3 @@ int main() {
 }
 
 // cmd + R : 컴파일 + 실행
-#endif
