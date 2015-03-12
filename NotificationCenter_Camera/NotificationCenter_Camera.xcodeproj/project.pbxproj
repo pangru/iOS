@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F93F97D31AB170E600E8DB6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F93F97D21AB170E600E8DB6E /* main.m */; };
+		F93F97D61AB170E600E8DB6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F93F97D51AB170E600E8DB6E /* AppDelegate.m */; };
+		F93F97D91AB170E600E8DB6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F93F97D81AB170E600E8DB6E /* ViewController.m */; };
+		F93F97DC1AB170E600E8DB6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93F97DA1AB170E600E8DB6E /* Main.storyboard */; };
+		F93F97DE1AB170E600E8DB6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93F97DD1AB170E600E8DB6E /* Images.xcassets */; };
+		F93F97E11AB170E600E8DB6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F93F97DF1AB170E600E8DB6E /* LaunchScreen.xib */; };
+		F93F97ED1AB170E600E8DB6E /* NotificationCenter_CameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F93F97EC1AB170E600E8DB6E /* NotificationCenter_CameraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F93F97E71AB170E600E8DB6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93F97C51AB170E600E8DB6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F93F97CC1AB170E600E8DB6E;
+			remoteInfo = NotificationCenter_Camera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F93F97CD1AB170E600E8DB6E /* NotificationCenter_Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationCenter_Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93F97D11AB170E600E8DB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93F97D21AB170E600E8DB6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F93F97D41AB170E600E8DB6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F93F97D51AB170E600E8DB6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F93F97D71AB170E600E8DB6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F93F97D81AB170E600E8DB6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F93F97DB1AB170E600E8DB6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F93F97DD1AB170E600E8DB6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F93F97E01AB170E600E8DB6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F93F97E61AB170E600E8DB6E /* NotificationCenter_CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationCenter_CameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93F97EB1AB170E600E8DB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93F97EC1AB170E600E8DB6E /* NotificationCenter_CameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationCenter_CameraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F93F97CA1AB170E600E8DB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93F97E31AB170E600E8DB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F93F97C41AB170E600E8DB6E = {
+			isa = PBXGroup;
+			children = (
+				F93F97CF1AB170E600E8DB6E /* NotificationCenter_Camera */,
+				F93F97E91AB170E600E8DB6E /* NotificationCenter_CameraTests */,
+				F93F97CE1AB170E600E8DB6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F93F97CE1AB170E600E8DB6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F93F97CD1AB170E600E8DB6E /* NotificationCenter_Camera.app */,
+				F93F97E61AB170E600E8DB6E /* NotificationCenter_CameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F93F97CF1AB170E600E8DB6E /* NotificationCenter_Camera */ = {
+			isa = PBXGroup;
+			children = (
+				F93F97D41AB170E600E8DB6E /* AppDelegate.h */,
+				F93F97D51AB170E600E8DB6E /* AppDelegate.m */,
+				F93F97D71AB170E600E8DB6E /* ViewController.h */,
+				F93F97D81AB170E600E8DB6E /* ViewController.m */,
+				F93F97DA1AB170E600E8DB6E /* Main.storyboard */,
+				F93F97DD1AB170E600E8DB6E /* Images.xcassets */,
+				F93F97DF1AB170E600E8DB6E /* LaunchScreen.xib */,
+				F93F97D01AB170E600E8DB6E /* Supporting Files */,
+			);
+			path = NotificationCenter_Camera;
+			sourceTree = "<group>";
+		};
+		F93F97D01AB170E600E8DB6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F93F97D11AB170E600E8DB6E /* Info.plist */,
+				F93F97D21AB170E600E8DB6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F93F97E91AB170E600E8DB6E /* NotificationCenter_CameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				F93F97EC1AB170E600E8DB6E /* NotificationCenter_CameraTests.m */,
+				F93F97EA1AB170E600E8DB6E /* Supporting Files */,
+			);
+			path = NotificationCenter_CameraTests;
+			sourceTree = "<group>";
+		};
+		F93F97EA1AB170E600E8DB6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F93F97EB1AB170E600E8DB6E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F93F97CC1AB170E600E8DB6E /* NotificationCenter_Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93F97F01AB170E700E8DB6E /* Build configuration list for PBXNativeTarget "NotificationCenter_Camera" */;
+			buildPhases = (
+				F93F97C91AB170E600E8DB6E /* Sources */,
+				F93F97CA1AB170E600E8DB6E /* Frameworks */,
+				F93F97CB1AB170E600E8DB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationCenter_Camera;
+			productName = NotificationCenter_Camera;
+			productReference = F93F97CD1AB170E600E8DB6E /* NotificationCenter_Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F93F97E51AB170E600E8DB6E /* NotificationCenter_CameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93F97F31AB170E700E8DB6E /* Build configuration list for PBXNativeTarget "NotificationCenter_CameraTests" */;
+			buildPhases = (
+				F93F97E21AB170E600E8DB6E /* Sources */,
+				F93F97E31AB170E600E8DB6E /* Frameworks */,
+				F93F97E41AB170E600E8DB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F93F97E81AB170E600E8DB6E /* PBXTargetDependency */,
+			);
+			name = NotificationCenter_CameraTests;
+			productName = NotificationCenter_CameraTests;
+			productReference = F93F97E61AB170E600E8DB6E /* NotificationCenter_CameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F93F97C51AB170E600E8DB6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Eizer_N34;
+				TargetAttributes = {
+					F93F97CC1AB170E600E8DB6E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F93F97E51AB170E600E8DB6E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F93F97CC1AB170E600E8DB6E;
+					};
+				};
+			};
+			buildConfigurationList = F93F97C81AB170E600E8DB6E /* Build configuration list for PBXProject "NotificationCenter_Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F93F97C41AB170E600E8DB6E;
+			productRefGroup = F93F97CE1AB170E600E8DB6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F93F97CC1AB170E600E8DB6E /* NotificationCenter_Camera */,
+				F93F97E51AB170E600E8DB6E /* NotificationCenter_CameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F93F97CB1AB170E600E8DB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93F97DC1AB170E600E8DB6E /* Main.storyboard in Resources */,
+				F93F97E11AB170E600E8DB6E /* LaunchScreen.xib in Resources */,
+				F93F97DE1AB170E600E8DB6E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93F97E41AB170E600E8DB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F93F97C91AB170E600E8DB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93F97D91AB170E600E8DB6E /* ViewController.m in Sources */,
+				F93F97D61AB170E600E8DB6E /* AppDelegate.m in Sources */,
+				F93F97D31AB170E600E8DB6E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93F97E21AB170E600E8DB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93F97ED1AB170E600E8DB6E /* NotificationCenter_CameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F93F97E81AB170E600E8DB6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F93F97CC1AB170E600E8DB6E /* NotificationCenter_Camera */;
+			targetProxy = F93F97E71AB170E600E8DB6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F93F97DA1AB170E600E8DB6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93F97DB1AB170E600E8DB6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F93F97DF1AB170E600E8DB6E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93F97E01AB170E600E8DB6E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F93F97EE1AB170E600E8DB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F93F97EF1AB170E700E8DB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F93F97F11AB170E700E8DB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NotificationCenter_Camera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F93F97F21AB170E700E8DB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NotificationCenter_Camera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F93F97F41AB170E700E8DB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NotificationCenter_CameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationCenter_Camera.app/NotificationCenter_Camera";
+			};
+			name = Debug;
+		};
+		F93F97F51AB170E700E8DB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NotificationCenter_CameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationCenter_Camera.app/NotificationCenter_Camera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F93F97C81AB170E600E8DB6E /* Build configuration list for PBXProject "NotificationCenter_Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93F97EE1AB170E600E8DB6E /* Debug */,
+				F93F97EF1AB170E700E8DB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93F97F01AB170E700E8DB6E /* Build configuration list for PBXNativeTarget "NotificationCenter_Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93F97F11AB170E700E8DB6E /* Debug */,
+				F93F97F21AB170E700E8DB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F93F97F31AB170E700E8DB6E /* Build configuration list for PBXNativeTarget "NotificationCenter_CameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93F97F41AB170E700E8DB6E /* Debug */,
+				F93F97F51AB170E700E8DB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F93F97C51AB170E600E8DB6E /* Project object */;
+}

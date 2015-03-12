@@ -7,48 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F90FB47B1AB0269300F76E1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F90FB47A1AB0269300F76E1C /* main.m */; };
-		F90FB47E1AB0269300F76E1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F90FB47D1AB0269300F76E1C /* AppDelegate.m */; };
-		F90FB4811AB0269300F76E1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90FB4801AB0269300F76E1C /* ViewController.m */; };
-		F90FB4861AB0269300F76E1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90FB4851AB0269300F76E1C /* Images.xcassets */; };
-		F90FB4891AB0269300F76E1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90FB4871AB0269300F76E1C /* LaunchScreen.xib */; };
-		F90FB4951AB0269300F76E1C /* NavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F90FB4941AB0269300F76E1C /* NavigationTests.m */; };
+		F96BBA771AB131C800A82201 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BBA761AB131C800A82201 /* main.m */; };
+		F96BBA7A1AB131C800A82201 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BBA791AB131C800A82201 /* AppDelegate.m */; };
+		F96BBA821AB131C800A82201 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96BBA811AB131C800A82201 /* Images.xcassets */; };
+		F96BBA911AB131C800A82201 /* NavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BBA901AB131C800A82201 /* NavigationTests.m */; };
+		F96BBA9D1AB132FB00A82201 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BBA9B1AB132FB00A82201 /* FirstViewController.m */; };
+		F96BBA9E1AB132FB00A82201 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96BBA9C1AB132FB00A82201 /* FirstViewController.xib */; };
+		F96BBAA21AB1351000A82201 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BBAA01AB1351000A82201 /* SecondViewController.m */; };
+		F96BBAA31AB1351000A82201 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96BBAA11AB1351000A82201 /* SecondViewController.xib */; };
+		F96BBAA71AB13C1C00A82201 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96BBAA51AB13C1C00A82201 /* ThirdViewController.m */; };
+		F96BBAA81AB13C1C00A82201 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96BBAA61AB13C1C00A82201 /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F90FB48F1AB0269300F76E1C /* PBXContainerItemProxy */ = {
+		F96BBA8B1AB131C800A82201 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F90FB46D1AB0269300F76E1C /* Project object */;
+			containerPortal = F96BBA691AB131C700A82201 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F90FB4741AB0269300F76E1C;
+			remoteGlobalIDString = F96BBA701AB131C800A82201;
 			remoteInfo = Navigation;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F90FB4751AB0269300F76E1C /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F90FB4791AB0269300F76E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F90FB47A1AB0269300F76E1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F90FB47C1AB0269300F76E1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F90FB47D1AB0269300F76E1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F90FB47F1AB0269300F76E1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F90FB4801AB0269300F76E1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F90FB4851AB0269300F76E1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F90FB4881AB0269300F76E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F90FB48E1AB0269300F76E1C /* NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F90FB4931AB0269300F76E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F90FB4941AB0269300F76E1C /* NavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationTests.m; sourceTree = "<group>"; };
+		F96BBA711AB131C800A82201 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96BBA751AB131C800A82201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96BBA761AB131C800A82201 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F96BBA781AB131C800A82201 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F96BBA791AB131C800A82201 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F96BBA811AB131C800A82201 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F96BBA8A1AB131C800A82201 /* NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96BBA8F1AB131C800A82201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96BBA901AB131C800A82201 /* NavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationTests.m; sourceTree = "<group>"; };
+		F96BBA9A1AB132FB00A82201 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F96BBA9B1AB132FB00A82201 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F96BBA9C1AB132FB00A82201 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		F96BBA9F1AB1351000A82201 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F96BBAA01AB1351000A82201 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F96BBAA11AB1351000A82201 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		F96BBAA41AB13C1C00A82201 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		F96BBAA51AB13C1C00A82201 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		F96BBAA61AB13C1C00A82201 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F90FB4721AB0269300F76E1C /* Frameworks */ = {
+		F96BBA6E1AB131C800A82201 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F90FB48B1AB0269300F76E1C /* Frameworks */ = {
+		F96BBA871AB131C800A82201 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,60 +68,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F90FB46C1AB0269300F76E1C = {
+		F96BBA681AB131C700A82201 = {
 			isa = PBXGroup;
 			children = (
-				F90FB4771AB0269300F76E1C /* Navigation */,
-				F90FB4911AB0269300F76E1C /* NavigationTests */,
-				F90FB4761AB0269300F76E1C /* Products */,
+				F96BBA731AB131C800A82201 /* Navigation */,
+				F96BBA8D1AB131C800A82201 /* NavigationTests */,
+				F96BBA721AB131C800A82201 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F90FB4761AB0269300F76E1C /* Products */ = {
+		F96BBA721AB131C800A82201 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F90FB4751AB0269300F76E1C /* Navigation.app */,
-				F90FB48E1AB0269300F76E1C /* NavigationTests.xctest */,
+				F96BBA711AB131C800A82201 /* Navigation.app */,
+				F96BBA8A1AB131C800A82201 /* NavigationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F90FB4771AB0269300F76E1C /* Navigation */ = {
+		F96BBA731AB131C800A82201 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				F90FB47C1AB0269300F76E1C /* AppDelegate.h */,
-				F90FB47D1AB0269300F76E1C /* AppDelegate.m */,
-				F90FB47F1AB0269300F76E1C /* ViewController.h */,
-				F90FB4801AB0269300F76E1C /* ViewController.m */,
-				F90FB4851AB0269300F76E1C /* Images.xcassets */,
-				F90FB4871AB0269300F76E1C /* LaunchScreen.xib */,
-				F90FB4781AB0269300F76E1C /* Supporting Files */,
+				F96BBA781AB131C800A82201 /* AppDelegate.h */,
+				F96BBA791AB131C800A82201 /* AppDelegate.m */,
+				F96BBA811AB131C800A82201 /* Images.xcassets */,
+				F96BBA741AB131C800A82201 /* Supporting Files */,
+				F96BBA9A1AB132FB00A82201 /* FirstViewController.h */,
+				F96BBA9B1AB132FB00A82201 /* FirstViewController.m */,
+				F96BBA9C1AB132FB00A82201 /* FirstViewController.xib */,
+				F96BBA9F1AB1351000A82201 /* SecondViewController.h */,
+				F96BBAA01AB1351000A82201 /* SecondViewController.m */,
+				F96BBAA11AB1351000A82201 /* SecondViewController.xib */,
+				F96BBAA41AB13C1C00A82201 /* ThirdViewController.h */,
+				F96BBAA51AB13C1C00A82201 /* ThirdViewController.m */,
+				F96BBAA61AB13C1C00A82201 /* ThirdViewController.xib */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
 		};
-		F90FB4781AB0269300F76E1C /* Supporting Files */ = {
+		F96BBA741AB131C800A82201 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F90FB4791AB0269300F76E1C /* Info.plist */,
-				F90FB47A1AB0269300F76E1C /* main.m */,
+				F96BBA751AB131C800A82201 /* Info.plist */,
+				F96BBA761AB131C800A82201 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F90FB4911AB0269300F76E1C /* NavigationTests */ = {
+		F96BBA8D1AB131C800A82201 /* NavigationTests */ = {
 			isa = PBXGroup;
 			children = (
-				F90FB4941AB0269300F76E1C /* NavigationTests.m */,
-				F90FB4921AB0269300F76E1C /* Supporting Files */,
+				F96BBA901AB131C800A82201 /* NavigationTests.m */,
+				F96BBA8E1AB131C800A82201 /* Supporting Files */,
 			);
 			path = NavigationTests;
 			sourceTree = "<group>";
 		};
-		F90FB4921AB0269300F76E1C /* Supporting Files */ = {
+		F96BBA8E1AB131C800A82201 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F90FB4931AB0269300F76E1C /* Info.plist */,
+				F96BBA8F1AB131C800A82201 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,13 +135,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F90FB4741AB0269300F76E1C /* Navigation */ = {
+		F96BBA701AB131C800A82201 /* Navigation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F90FB4981AB0269300F76E1C /* Build configuration list for PBXNativeTarget "Navigation" */;
+			buildConfigurationList = F96BBA941AB131C800A82201 /* Build configuration list for PBXNativeTarget "Navigation" */;
 			buildPhases = (
-				F90FB4711AB0269300F76E1C /* Sources */,
-				F90FB4721AB0269300F76E1C /* Frameworks */,
-				F90FB4731AB0269300F76E1C /* Resources */,
+				F96BBA6D1AB131C800A82201 /* Sources */,
+				F96BBA6E1AB131C800A82201 /* Frameworks */,
+				F96BBA6F1AB131C800A82201 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -133,46 +149,46 @@
 			);
 			name = Navigation;
 			productName = Navigation;
-			productReference = F90FB4751AB0269300F76E1C /* Navigation.app */;
+			productReference = F96BBA711AB131C800A82201 /* Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F90FB48D1AB0269300F76E1C /* NavigationTests */ = {
+		F96BBA891AB131C800A82201 /* NavigationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F90FB49B1AB0269300F76E1C /* Build configuration list for PBXNativeTarget "NavigationTests" */;
+			buildConfigurationList = F96BBA971AB131C800A82201 /* Build configuration list for PBXNativeTarget "NavigationTests" */;
 			buildPhases = (
-				F90FB48A1AB0269300F76E1C /* Sources */,
-				F90FB48B1AB0269300F76E1C /* Frameworks */,
-				F90FB48C1AB0269300F76E1C /* Resources */,
+				F96BBA861AB131C800A82201 /* Sources */,
+				F96BBA871AB131C800A82201 /* Frameworks */,
+				F96BBA881AB131C800A82201 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F90FB4901AB0269300F76E1C /* PBXTargetDependency */,
+				F96BBA8C1AB131C800A82201 /* PBXTargetDependency */,
 			);
 			name = NavigationTests;
 			productName = NavigationTests;
-			productReference = F90FB48E1AB0269300F76E1C /* NavigationTests.xctest */;
+			productReference = F96BBA8A1AB131C800A82201 /* NavigationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F90FB46D1AB0269300F76E1C /* Project object */ = {
+		F96BBA691AB131C700A82201 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Eizer_N34;
 				TargetAttributes = {
-					F90FB4741AB0269300F76E1C = {
+					F96BBA701AB131C800A82201 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					F90FB48D1AB0269300F76E1C = {
+					F96BBA891AB131C800A82201 = {
 						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = F90FB4741AB0269300F76E1C;
+						TestTargetID = F96BBA701AB131C800A82201;
 					};
 				};
 			};
-			buildConfigurationList = F90FB4701AB0269300F76E1C /* Build configuration list for PBXProject "Navigation" */;
+			buildConfigurationList = F96BBA6C1AB131C700A82201 /* Build configuration list for PBXProject "Navigation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -180,28 +196,30 @@
 				en,
 				Base,
 			);
-			mainGroup = F90FB46C1AB0269300F76E1C;
-			productRefGroup = F90FB4761AB0269300F76E1C /* Products */;
+			mainGroup = F96BBA681AB131C700A82201;
+			productRefGroup = F96BBA721AB131C800A82201 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F90FB4741AB0269300F76E1C /* Navigation */,
-				F90FB48D1AB0269300F76E1C /* NavigationTests */,
+				F96BBA701AB131C800A82201 /* Navigation */,
+				F96BBA891AB131C800A82201 /* NavigationTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F90FB4731AB0269300F76E1C /* Resources */ = {
+		F96BBA6F1AB131C800A82201 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F90FB4891AB0269300F76E1C /* LaunchScreen.xib in Resources */,
-				F90FB4861AB0269300F76E1C /* Images.xcassets in Resources */,
+				F96BBA821AB131C800A82201 /* Images.xcassets in Resources */,
+				F96BBA9E1AB132FB00A82201 /* FirstViewController.xib in Resources */,
+				F96BBAA81AB13C1C00A82201 /* ThirdViewController.xib in Resources */,
+				F96BBAA31AB1351000A82201 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F90FB48C1AB0269300F76E1C /* Resources */ = {
+		F96BBA881AB131C800A82201 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,47 +229,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F90FB4711AB0269300F76E1C /* Sources */ = {
+		F96BBA6D1AB131C800A82201 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F90FB4811AB0269300F76E1C /* ViewController.m in Sources */,
-				F90FB47E1AB0269300F76E1C /* AppDelegate.m in Sources */,
-				F90FB47B1AB0269300F76E1C /* main.m in Sources */,
+				F96BBAA21AB1351000A82201 /* SecondViewController.m in Sources */,
+				F96BBAA71AB13C1C00A82201 /* ThirdViewController.m in Sources */,
+				F96BBA7A1AB131C800A82201 /* AppDelegate.m in Sources */,
+				F96BBA9D1AB132FB00A82201 /* FirstViewController.m in Sources */,
+				F96BBA771AB131C800A82201 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F90FB48A1AB0269300F76E1C /* Sources */ = {
+		F96BBA861AB131C800A82201 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F90FB4951AB0269300F76E1C /* NavigationTests.m in Sources */,
+				F96BBA911AB131C800A82201 /* NavigationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F90FB4901AB0269300F76E1C /* PBXTargetDependency */ = {
+		F96BBA8C1AB131C800A82201 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F90FB4741AB0269300F76E1C /* Navigation */;
-			targetProxy = F90FB48F1AB0269300F76E1C /* PBXContainerItemProxy */;
+			target = F96BBA701AB131C800A82201 /* Navigation */;
+			targetProxy = F96BBA8B1AB131C800A82201 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		F90FB4871AB0269300F76E1C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F90FB4881AB0269300F76E1C /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		F90FB4961AB0269300F76E1C /* Debug */ = {
+		F96BBA921AB131C800A82201 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +301,7 @@
 			};
 			name = Debug;
 		};
-		F90FB4971AB0269300F76E1C /* Release */ = {
+		F96BBA931AB131C800A82201 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -327,27 +336,29 @@
 			};
 			name = Release;
 		};
-		F90FB4991AB0269300F76E1C /* Debug */ = {
+		F96BBA951AB131C800A82201 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Navigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		F90FB49A1AB0269300F76E1C /* Release */ = {
+		F96BBA961AB131C800A82201 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Navigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		F90FB49C1AB0269300F76E1C /* Debug */ = {
+		F96BBA981AB131C800A82201 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -366,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		F90FB49D1AB0269300F76E1C /* Release */ = {
+		F96BBA991AB131C800A82201 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -384,32 +395,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F90FB4701AB0269300F76E1C /* Build configuration list for PBXProject "Navigation" */ = {
+		F96BBA6C1AB131C700A82201 /* Build configuration list for PBXProject "Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F90FB4961AB0269300F76E1C /* Debug */,
-				F90FB4971AB0269300F76E1C /* Release */,
+				F96BBA921AB131C800A82201 /* Debug */,
+				F96BBA931AB131C800A82201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F90FB4981AB0269300F76E1C /* Build configuration list for PBXNativeTarget "Navigation" */ = {
+		F96BBA941AB131C800A82201 /* Build configuration list for PBXNativeTarget "Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F90FB4991AB0269300F76E1C /* Debug */,
-				F90FB49A1AB0269300F76E1C /* Release */,
+				F96BBA951AB131C800A82201 /* Debug */,
+				F96BBA961AB131C800A82201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		F90FB49B1AB0269300F76E1C /* Build configuration list for PBXNativeTarget "NavigationTests" */ = {
+		F96BBA971AB131C800A82201 /* Build configuration list for PBXNativeTarget "NavigationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F90FB49C1AB0269300F76E1C /* Debug */,
-				F90FB49D1AB0269300F76E1C /* Release */,
+				F96BBA981AB131C800A82201 /* Debug */,
+				F96BBA991AB131C800A82201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F90FB46D1AB0269300F76E1C /* Project object */;
+	rootObject = F96BBA691AB131C700A82201 /* Project object */;
 }

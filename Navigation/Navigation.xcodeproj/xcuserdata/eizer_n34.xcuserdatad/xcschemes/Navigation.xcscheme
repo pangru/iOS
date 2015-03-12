@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F90FB4741AB0269300F76E1C"
+               BlueprintIdentifier = "F96BBA701AB131C800A82201"
                BuildableName = "Navigation.app"
                BlueprintName = "Navigation"
                ReferencedContainer = "container:Navigation.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F90FB48D1AB0269300F76E1C"
+               BlueprintIdentifier = "F96BBA891AB131C800A82201"
                BuildableName = "NavigationTests.xctest"
                BlueprintName = "NavigationTests"
                ReferencedContainer = "container:Navigation.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F90FB48D1AB0269300F76E1C"
+               BlueprintIdentifier = "F96BBA891AB131C800A82201"
                BuildableName = "NavigationTests.xctest"
                BlueprintName = "NavigationTests"
                ReferencedContainer = "container:Navigation.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F90FB4741AB0269300F76E1C"
+            BlueprintIdentifier = "F96BBA701AB131C800A82201"
             BuildableName = "Navigation.app"
             BlueprintName = "Navigation"
             ReferencedContainer = "container:Navigation.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F90FB4741AB0269300F76E1C"
+            BlueprintIdentifier = "F96BBA701AB131C800A82201"
             BuildableName = "Navigation.app"
             BlueprintName = "Navigation"
             ReferencedContainer = "container:Navigation.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F90FB4741AB0269300F76E1C"
+            BlueprintIdentifier = "F96BBA701AB131C800A82201"
             BuildableName = "Navigation.app"
             BlueprintName = "Navigation"
             ReferencedContainer = "container:Navigation.xcodeproj">
